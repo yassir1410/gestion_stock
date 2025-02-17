@@ -1,0 +1,25 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Product details heading */
+h2 {
+    text-align: center;
+    color: #3498db;
+    /* Blue color */
+    margin-bottom: 20px;
+}
+
+/* Product details labels */
+p {
+    margin-bottom: 5px;
+}
+
+/* Product details label format */
+p span {
+    font-weight: bold;
+    color: #333;
+    /* Dark gray color */
+}

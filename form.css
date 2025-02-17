@@ -1,0 +1,67 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Form layout */
+form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: 0 auto;
+}
+
+label {
+    width: 120px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+/* Buttons */
+input[type="submit"],
+input[type="reset"],
+button {
+    padding: 10px 20px;
+    /* Modified padding here */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+}
+
+input[type="reset"] {
+    background-color: #ccc;
+    color: black;
+}
+
+button {
+    background-color: #008CBA;
+    color: white;
+}
+
+/* Focus style for inputs and selects */
+input[type="text"]:focus,
+input[type="number"]:focus,
+select:focus {
+    border: 1px solid #008CBA;
+}
+
+/* Title styling */
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}

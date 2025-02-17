@@ -1,0 +1,72 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    /* Adjusted padding for all buttons */
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    width: auto;
+    /* Reset width to auto */
+    text-align: center;
+    /* Center button text */
+}
+
+/* Button for adding a new product */
+button:first-child {
+    background-color: #4CAF50;
+    /* Green color */
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* Table styling */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ccc;
+}
+
+/* Table header */
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+/* Actions column buttons */
+table button {
+    margin: 2px;
+    /* Reset margin */
+}
+
+/* Modifier button */
+table button:first-child {
+    background-color: #3498db;
+    /* Blue color */
+    color: white;
+}
+
+/* Supprimer button */
+table button:nth-child(2) {
+    background-color: #e74c3c;
+    /* Red color */
+    color: white;
+}
+
+/* Details button */
+table button:nth-child(3) {
+    background-color: #f1c40f;
+    /* Yellow color */
+    color: black;
+}
